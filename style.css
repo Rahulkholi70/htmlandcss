@@ -1,0 +1,50 @@
+
+    .headdiv{
+            background-color:grey;
+            height: 50px;
+            width:100vw;
+            padding-left:600px;
+         }
+    .h2{
+             padding-left:550px;
+             color: rgb(96, 57, 7);
+            }
+    .bigdiv{
+            background-color: aquamarine;
+            height: 500px;
+            width: 700px;
+            margin-left:auto;
+            margin-right:auto;
+            border-radius: 10px;
+            padding-left: 100px;
+            padding-top: 50px;
+        }
+    .inrdiv{
+            background-color: pink;
+            height: 100px;
+            width: 100px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-left: 20px;
+            margin-right: 20px;
+
+        }
+    button{
+            background-color: brown;
+            width: 150px;
+            /* margin-right:auto; */
+            margin-left:225px;
+            border-radius:5px;
+            margin-top: 300px;
+            display: block;
+
+        
+
+        }
+    footer{
+        width: 100vw;
+        height: 50px;
+        background-color: coral;
+    }
+
+        
