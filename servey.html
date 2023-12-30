@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Servey</title>
+    <style>
+        body {
+            background-color: #05c46b;
+            font-family: Verdana;
+            text-align: center;
+        }
+        h1 {
+            text-align: center;
+            font-family: inherit;
+        }
+        form {
+            background-color: aliceblue;
+            box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+            max-width: 500px;
+            margin: 30px auto;
+            padding: 30px 20px;
+            font-family: inherit;
+        }
+        .div-control {
+            text-align: left;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-family: inherit;
+        }
+        button {
+            background-color: #05c46b;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            font-size: 21px;
+            display: block;
+            width: 100%;
+            margin-top: 50px;
+            margin-bottom: 20px;
+        }
+        .comment {
+            width: 95%;
+            display: inline-block;
+            height: 100px;
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+        }
+        #comnt {
+            margin-bottom: 10px;
+        }
+        #select {
+            border: 1px solid #777;
+            border-radius: 2px;
+            font-family: inherit;
+            padding: 10px;
+            display: block;
+            width: 95%;
+        }
+        .username,
+        .mail,
+        .Age {
+            width: 95%;
+            padding: auto;
+            height: 20px;
+            font-family: inherit;
+        }
+    </style>
+</head>
+<body>
+    <h1>Servey from</h1>
+    <!-- <form id='form' style="box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;"> -->
+    <form id='form'>
+        <div class="div-control">
+            <label for="label-name" class="label"> Name </label>
+            <input type="text" class="username" placeholder="Enter your name">
+        </div>
+        <div class="div-control">
+            <label for="email" class="label">E-mail</label>
+            <input type="email" class="mail" placeholder="email">
+        </div>
+        <div class="div-control">
+            <label for="age" class="label">Age</label>
+            <input type="text" class="Age" placeholder="Age">
+        </div>
+        <div class="div-control">
+            <label> Which option best discribe you</label>
+            <select name="Role" id="select">
+                <option value="Student"> Student</option>
+                <option value="Intern"> Internship</option>
+                <option value="Professional">Professional</option>
+                <option value="other">Other</option>
+            </select>
+        </div>
+        <div class="div-control">
+            <label>Have you done project in your field ?
+            </label>
+            <label for="recomnd-1"><input id="label" type="radio" name="recomnd">Yes
+            </label>
+            <label for="recomnd-2"><input id="label" type="radio" name="recomnd">No
+            </label>
+        </div>
+        <div class="div-control">
+            <label for="language-selection" class="label">Language and Framework known <small>(check all that
+                    apply)</small> </label>
+            <label> <input type="checkbox">C</label>
+            <label> <input type="checkbox">C++</label>
+            <label> <input type="checkbox">C#</label>
+            <label> <input type="checkbox">Java</label>
+            <label> <input type="checkbox">ReactJS</label>
+            <label> <input type="checkbox">PHP</label>
+            <label> <input type="checkbox">Angular</label>
+            <label> <input type="checkbox">Django</label>
+        </div>
+        <div class="div-control">
+            <label for="comment" id="comnt">Any commnets or suggestions</label>
+            <textarea class="comment" name="comment" placeholder="write some commnet"></textarea>
+        </div>
+        <button> Submit</button>
+    </form>
+</body>
+</html>
