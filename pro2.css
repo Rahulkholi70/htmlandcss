@@ -1,0 +1,83 @@
+/* .body {
+    margin: 0;
+    padding: 0;
+} */
+.mhead {
+  padding: 30px 0px 40px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+h4{
+  font-family: "Times New Roman", Times, serif;
+}
+.head {
+  margin: 0 auto;
+}
+ul {
+  text-align: right;
+}
+.head li {
+  list-style: none;
+  display: inline-block;
+}
+.head li a {
+  color: #333;
+  margin: 0;
+  border: 0px;
+}
+.jumbo {
+  font-size: xx-large;
+  text-align: center;
+}
+.jumbo h2 span {
+  color: rgb(9, 219, 223);
+}
+.banner {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab, pink);
+  background-size: 400% 400%;
+  animation: gradient 10s ease infinite;
+  text-align: center;
+  font-style: normal;
+  height:100px;
+  padding-top: 10px;
+  
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.cards {
+  background-color: #ffc200;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.col{
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+#expertise {
+  padding: 20px;
+  background-color: #ffc200;
+  text-align: center;
+  margin: 0%;
+}
+.foot{
+  background-color: black;
+  padding: 60px 0px ;
+  color: aliceblue;
+  margin:auto;
+}
+.foot h3{
+  padding-left: 50px;
+}
